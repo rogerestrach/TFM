@@ -1,0 +1,33 @@
+# Appendix A: Routes Adjustments Database {-} 
+
+```{r Routes, echo=FALSE, message= FALSE, warning=FALSE }
+library(readr)
+library(kableExtra)
+Routes <- read_csv2("Data/Routes.csv")
+knitr::kable(Routes[,1:13], align = 'c', caption = "Routes Database") %>%
+    kable_styling(font_size = 7) %>%
+    scroll_box(width = "100%", height = "400px")
+```
+
+# Appendix B: Airports Database {-}
+
+```{r Airports, echo=FALSE, message= FALSE, warning=FALSE }
+library(readr)
+library(kableExtra)
+Airports <- read_csv2("Data/Airports.csv")
+knitr::kable(Airports[,1:9], align = 'c', caption = "Airports Database") %>%
+    kable_styling(font_size = 7) %>%
+    scroll_box(width = "100%", height = "400px")
+```
+*Table obtained from: @AirportsCsv
+
+# Appendix C: Goverments Measures {-}
+```{r Goverments, echo=FALSE, message= FALSE, warning=FALSE }
+library(readr)
+library(kableExtra)
+Airports <- read_csv2("Data/Goverments.csv")
+knitr::kable(Airports[,1:6], align = 'c', caption = "Government Measures Dataset. Source: acaps") %>%
+    kable_styling(font_size = 7) %>%
+    scroll_box(width = "100%", height = "400px")
+```
+*Table obtained from: @acaps

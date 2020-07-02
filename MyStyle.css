@@ -1,0 +1,105 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+body {
+  text-align: justify;
+}
+.header-section-number {
+  padding-right: .2em;
+  font-weight: 500;
+}
+.level1 .header-section-number {
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+.level2 .header-section-number {
+  border-bottom: none;
+}
+.level3 .header-section-number {
+  border-bottom: none;
+}
+.level1 h1 {
+  border-bottom: 1px solid;
+}
+.textarea{
+  width:100%;
+  background-color:none;
+  overflow-y:scroll;
+  height:250px;
+  max-height:250px;
+  border:1.5px solid #aaa;
+  overflow-y: auto;
+}
+.textarea2{
+  width:100%;
+  background-color:none;
+  overflow-y:scroll;
+  height:500px;
+  max-height:500px;
+  border:1px solid #aaa;
+  overflow-y: auto;
+}
+.textarea3{
+  width:100%;
+  background-color:none;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  height:500px;
+  max-height:550px;
+  border:1px solid #aaa;
+  overflow-y: auto;
+}
+
+.textarea4{
+  width:100%;
+  background-color:none;
+  overflow-y:scroll;
+  overflow-x:scroll;
+  height:420px;
+  max-height:420px;
+  border:1px solid #aaa;
+  overflow-y: auto;
+}
+
+.column-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
+
+.column-left2{
+  float: left;
+  width: 60%;
+  text-align: left;
+}
+.column-right2{
+  float: right;
+  width: 40%;
+  text-align: justify;
+}
+.book .book-body .page-wrapper .page-inner {
+  max-width: 1000px !important;
+}
+
+table.a {
+  table-layout: auto;
+  width: 100%;
+}
+
+

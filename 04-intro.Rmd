@@ -1,0 +1,44 @@
+# Introduction {#intro}
+
+The coronavirus pandemic represents one of the most challenging events of the 21st century. For everyday people, it will be remembered as the isolation era and those days with unusual routines. The lockdown has carried the temporary closure of shops and the cancellation or postponement of most of the events scheduled for 2020. The COVID-19 has forced almost everyone to reformulate their near future with a high price to pay.
+
+The economic impact induced from the pandemic will be devastating. The Air Transport of passengers and the aviation industry has been one of the hardest hit sectors. Measures like the isolation, the travel ban and the social distancing are totally in contrast to what aviation is.
+The ICAO predicts that full-year air passenger traffic for 2020 (domestic and international) is expected to be down from a 45\% to 62\% compared to 2019^[As of June 8.]. In other words, airline passenger revenues will drop approximately 300 to 400 billion dollars in 2020, a 55\% decline compared to 2019. Airlines are in danger, being the lack of liquidity one of the main challenges they will face.
+
+The project begins explaining the future that the aviation industry was forecasting before the COVID-19 outbreak. After that, it is explained the arrival of the virus and its global spreading. Followingly, it is presented the main part of the project, the data analysis.<br>
+Its ojective is to analyze the database. Among others, it is studied the airlines affected, the duration and anticipation of the adjustments, and the outbreak throughout the routes adjusted. <br> Afterwards, there are presented the new scenarios foreseen for the future of the aviation sector. And finally, all the conclusions obtained are gathered and discussed. 
+
+## Aim {#aim}
+It is clear that the aviation is the way of transport most affected by COVID-19, it is because of that, this project pretends to visualise the pandemic evolution across the world throughout the adjustments in the scheduled frequencies of passenger service airlines.
+
+Moreover, with all the data collected will be determined the most affected airlines, the duration and anticipation of the adjustments and the strategy followed by the air carriers. This will be developed always considering the number of cases per country and under the prespective of the global spreading.
+
+## Scope {#scope}
+
+Due to the complexity of the study, particularly working in the database, it has been chosen a specific period of time. The analysis will be done from January 23 when the city of Wuhan was put under lockdown to April 7, a day before the city was opened up. This investigation comprises the schedules adjustments from world's airlines, allowing to analyse the pandemic from a global point of view. 
+
+## Objectives {#objectives}
+
+Following are listed the main objectives of the project:
+
+- To explain the situation of the Air Traffic sector before and during the pandemic.
+- To generate a database listing the schedule adjustments of the passenger service airlines during the period of time selected.
+- To explain the COVID-19 pandemic and the measures applied through the schedules adjustments.
+- To represent the data collected in a clear and understandable way.
+- To understand, determine and reflect the strategic measures applied by the airlines.
+- To generate an interactive document to facilitate the understanding and comprehension of the pandemic outbreak in *R-Bookdown*.
+
+## Specific Requirements {#spec}
+
+In order to perform this project there are a list of requirements:
+
+- To have access to the schedule adjustments of the airlines.
+- To have access to a database with all the measures applied by the world's governments in front of the COVID-19 pandemic.
+- To have a database containig the location of the worlwide aiports.
+- To subscribe to *Flourish Studio* premium version.
+
+## Justification {#just}
+
+Almost everyone has experienced the impact induced by COVID-19 or has heard about the economic implications of its outbreak.
+As it will be studied, the Air Transport industry has been one of the most affected sectors. This project provides the opportunity not only to study this affectation but, to deliver a list of representations to visualize the repercussions on air traffic network. <br> 
+

@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pandemic-arrival-and-evolution.html"/>
+<link rel="next" href="the-scenarios-for-the-future-of-the-air-transport.html"/>
+<script src="book_assets/jquery-2.2.3/jquery.min.js"></script>
+<link href="book_assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="book_assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="book_assets/kePrint-0.0.1/kePrint.js"></script>
+
+
+
+<link rel="stylesheet" href="MyStyle.css" type="text/css" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Master's Dissertation Report </a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Impact Analysis of COVID-19 to Air Transport of Passengers</a></li>
+<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="acknoledgements.html"><a href="acknoledgements.html"><i class="fa fa-check"></i>Acknoledgements</a></li>
+<li class="chapter" data-level="" data-path="list-of-contents.html"><a href="list-of-contents.html"><i class="fa fa-check"></i>List of Contents</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#aim"><i class="fa fa-check"></i><b>1.1</b> Aim</a></li>
+<li class="chapter" data-level="1.2" data-path="intro.html"><a href="intro.html#scope"><i class="fa fa-check"></i><b>1.2</b> Scope</a></li>
+<li class="chapter" data-level="1.3" data-path="intro.html"><a href="intro.html#objectives"><i class="fa fa-check"></i><b>1.3</b> Objectives</a></li>
+<li class="chapter" data-level="1.4" data-path="intro.html"><a href="intro.html#spec"><i class="fa fa-check"></i><b>1.4</b> Specific Requirements</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="ATEvo.html"><a href="ATEvo.html"><i class="fa fa-check"></i><b>2</b> Air Transport Evolution and Forecast before COVID-19</a></li>
+<li class="chapter" data-level="3" data-path="pandemic-arrival-and-evolution.html"><a href="pandemic-arrival-and-evolution.html"><i class="fa fa-check"></i><b>3</b> Pandemic Arrival and Evolution</a></li>
+<li class="chapter" data-level="4" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html"><i class="fa fa-check"></i><b>4</b> Routes Impact Analysis</a><ul>
+<li class="chapter" data-level="4.1" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#methodology"><i class="fa fa-check"></i><b>4.1</b> Methodology</a></li>
+<li class="chapter" data-level="4.2" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#database"><i class="fa fa-check"></i><b>4.2</b> Database</a></li>
+<li class="chapter" data-level="4.3" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#analysis"><i class="fa fa-check"></i><b>4.3</b> Analysis</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#the-pandemic-outbrake-throughout-the-schedule-adjustments"><i class="fa fa-check"></i><b>4.3.1</b> The pandemic outbrake throughout the schedule adjustments</a></li>
+<li class="chapter" data-level="4.3.2" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#the-air-cargo-phenomena"><i class="fa fa-check"></i><b>4.3.2</b> The air cargo phenomena</a></li>
+<li class="chapter" data-level="4.3.3" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#evolution-of-the-frequencies-cancelled-per-airline"><i class="fa fa-check"></i><b>4.3.3</b> Evolution of the frequencies cancelled per airline</a></li>
+<li class="chapter" data-level="4.3.4" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#affected-airlines"><i class="fa fa-check"></i><b>4.3.4</b> Affected Airlines</a></li>
+<li class="chapter" data-level="4.3.5" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#duration-and-anticipation-of-the-adjustements"><i class="fa fa-check"></i><b>4.3.5</b> Duration and anticipation of the adjustements</a></li>
+<li class="chapter" data-level="4.3.6" data-path="routes-impact-analysis.html"><a href="routes-impact-analysis.html#airlines-strategy"><i class="fa fa-check"></i><b>4.3.6</b> Airlines' Strategy</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="the-scenarios-for-the-future-of-the-air-transport.html"><a href="the-scenarios-for-the-future-of-the-air-transport.html"><i class="fa fa-check"></i><b>5</b> The Scenarios for the Future of the Air Transport</a></li>
+<li class="chapter" data-level="6" data-path="conclusions.html"><a href="conclusions.html"><i class="fa fa-check"></i><b>6</b> Conclusions</a></li>
+<li class="chapter" data-level="" data-path="appendix-a-routes-database.html"><a href="appendix-a-routes-database.html"><i class="fa fa-check"></i>Appendix A: Routes Database</a></li>
+<li class="chapter" data-level="" data-path="appendix-b-airports-database.html"><a href="appendix-b-airports-database.html"><i class="fa fa-check"></i>Appendix B: Airports Database</a></li>
+<li class="chapter" data-level="" data-path="appendix-c-goverments-measures.html"><a href="appendix-c-goverments-measures.html"><i class="fa fa-check"></i>Appendix C: Goverments Measures</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="routes-impact-analysis" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Routes Impact Analysis</h1>
+<p>When flying and in troubles, no matters what it is, the altitude, the remaining fuel or even the radio communications. The first order of business is to keep the wings straight and level. Somehow, this is the strategy the airlines are applying. In front of a totally new situation, their objective is to stay afloat. And the only way to do it is preserving cash. To do so, they are erasing those routes or frequencies in which they will lose money or the law forbid to fly <span class="citation">(CNBC <a href="references.html#ref-USAirlinesSurvive">2020</a>)</span>.</p>
+<p>This is what is going to be analyzed in the following section. But before proceeding to the analysis of these adjustments, it is explained the methodology followed.</p>
+<div id="methodology" class="section level2">
+<h2><span class="header-section-number">4.1</span> Methodology</h2>
+<p>Firstly, it has been necessary to elaborate the database. From the latter will be generated the graphics and animations that will allow the explanation of the pandemic. In order to generate the database then, it is a requisite to have access to the schedule adjustments of the airlines. This information is not usually published in open sources, thus it is necessary to pay. This information is extremely expensive, being totally out of the scope of this project. Even though, it has been found an alternative open source: <em>RoutesOnline</em>. This webpage has a section titled &quot;AirlinesRoutes&quot; in which they gather all the flight schedules adjustments from the airlines around the world, having a specific section for the coronavirus pandemic. <em>RoutesOnline</em> have been collecting these modifications since January 23 and will continue until the end of the pandemic. As they state in their webpage:</p>
+<p><em>&quot;Airlineroute is run by a team of one (with the exception of Routes Editorial Opinion and Live Blog Post), and due to extraordinary numbers of flight adjustments, Airlineroute may not be able to cover every carrier, but will report them as many as possible.&quot;</em></p>
+<p>It is because of that, the database generated may be completed but cannot be ensured that lists all the modifications. Even though, and as it can be seen in the following pages, the database has resulted to satisfy the requirements.</p>
+<p>Once elaborated the database, the project has proceeded with the representation of the data. There have been done several interactive representations to ease the understanding to make it as interactive as possible. The analysis of the representations is done after their presentation and on some occasions even complemented with other representations.</p>
+</div>
+<div id="database" class="section level2">
+<h2><span class="header-section-number">4.2</span> Database</h2>
+<p>The schedules adjustments posted on <em>Routes Online</em> required to be arranged and listed in an excel format. In the following Table is shown the database structure:</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:100%; overflow-x: scroll; width:100%; ">
+<table class="table" style="font-size: 8px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+<span id="tab:Example">Table 4.1: </span>Database structure.
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+REGION
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+COUNTRY
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+AIRLINE
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FROM
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+TO
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FROM (AIRPORT)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+TO (AIRPORT)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+TYPE OF ADJUSTMENT
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FREQUENCIES (BEFORE)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+FREQUENCY (AFTER)
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+PUBLICATION DATE
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+STARTING DATE
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+ENDING DATE
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Eastern Asia
+</td>
+<td style="text-align:center;">
+China
+</td>
+<td style="text-align:center;">
+China Southern
+</td>
+<td style="text-align:center;">
+Wuhan
+</td>
+<td style="text-align:center;">
+Bangkok
+</td>
+<td style="text-align:center;">
+27200
+</td>
+<td style="text-align:center;">
+28118
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+23/01/2020
+</td>
+<td style="text-align:center;">
+23/01/2020
+</td>
+<td style="text-align:center;">
+01/03/2020
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Eastern Asia
+</td>
+<td style="text-align:center;">
+China
+</td>
+<td style="text-align:center;">
+China Southern
+</td>
+<td style="text-align:center;">
+Wuhan
+</td>
+<td style="text-align:center;">
+Dubai
+</td>
+<td style="text-align:center;">
+27200
+</td>
+<td style="text-align:center;">
+5235
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+23/01/2020
+</td>
+<td style="text-align:center;">
+23/01/2020
+</td>
+<td style="text-align:center;">
+01/03/2020
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The database is structured in a way each row represents an adjustment in an airline's flight schedule. Following, are explained each of the blanks to be filled:</p>
+<ul>
+<li><strong><em>Country</em></strong>: It states where the airline is based.</li>
+<li><strong><em>Region</em></strong>: It classifies the previously mentioned country into a United Nations Statistics Division (UNSD) region.</li>
+</ul>
+<div class="figure" style="text-align: center"><span id="fig:Regions"></span>
+<img src="images/impact/regions.png" alt="The United Nations geoscheme" width="80%" />
+<p class="caption">
+Figure 4.1: The United Nations geoscheme
+</p>
+</div>
+<ul>
+<li><strong><em>Airiline</em></strong>: Name of the airline modifying its schedule.</li>
+<li><strong><em>From</em></strong>: Origin of the route modified.</li>
+<li><strong><em>To</em></strong>: Destination of the route modified.</li>
+<li><strong><em>From (Airport)</em></strong>: Identification code of the origin airport. This value references to another database listing all the airports with their corresponding locations and identification codes (See in See Appendix B).</li>
+<li><strong><em>To (Airport)</em></strong>: Identification code of the destination airport. This value references to another database listing all the airports with their corresponding locations and identification codes (See Appendix B).</li>
+<li><p><strong><em>Type of ajustment</em></strong>: Identification number</p>
+<p>-<strong><em>1</em></strong>: Route Cancelled.</p>
+<p>-<strong><em>2</em></strong>: Route with a reduction in frequencies.</p>
+<p>-<strong><em>3</em></strong>: Route with an increase in frequencies.</p>
+<p>-<strong><em>4</em></strong>: Route closed for reservation.</p></li>
+<li><p><strong><em>Frequencies (Before)</em></strong>: Number of frequencies scheduled before the modification.</p></li>
+<li><p><strong><em>Frequencies (After)</em></strong>: Number of frequencies scheduled after the modification.</p></li>
+<li><p><strong><em>Publication Date</em></strong>: Schedule adjustment notification date.</p></li>
+<li><p><strong><em>Starting Date</em></strong>: the first day the adjustment applies.</p></li>
+<li><p><strong><em>Ending Date</em></strong>: Last day the adjustment applies.</p></li>
+</ul>
+</div>
+<div id="analysis" class="section level2">
+<h2><span class="header-section-number">4.3</span> Analysis</h2>
+<p>As mentioned, the objective of the following section, and as a main part of the project, is to analyze the data collected.</p>
+<div id="the-pandemic-outbrake-throughout-the-schedule-adjustments" class="section level3">
+<h3><span class="header-section-number">4.3.1</span> The pandemic outbrake throughout the schedule adjustments</h3>
+<p>Firstly, it will be determined if the evolution of the COVID-19 pandemic can be represented throughout the evolution of the schedules adjustments. To do so, it will be used the nexy animation, in which are represented the affectations in the routes throughout the period studied.</p>
+<p>The schedules modifications have been represented depending on its nature:</p>
+<ul>
+<li>In <span style="color:red">red</span> are drawn the routes that have been cancelled by some airline.</li>
+<li>In <span style="color:orange">orange</span> are represented those routes seeing a reduction in their frequencies.</li>
+<li>In <span style="color:green">green</span> represented those routes seeing an increase in their frequencies.</li>
+<li>In <span style="color:blue">blue</span> are plot the routes in which some airline have closed the reservation.</li>
+</ul>
+<p>Below, in the left side, is attached the animation and in the right side can be seen its commentaries. <img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+<div class="column-left2">
+<div class="flourish-embed" data-src="Visualizations/EvolutionRoutes/index.html">
+<script src="Visualizations/EvolutionRoutes/flourish.embed.js"></script>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:MAP"></span>
+<img src="images/blank.png" alt="Evolution of the affected routes by COVID-19" width="80" height="0.0001%" />
+<p class="caption">
+Figure 4.2: Evolution of the affected routes by COVID-19
+</p>
+</div>
+</div>
+<div class="column-right2">
+<div class="textarea3">
+<p>The presentation starts on January 22, being visible the effects of the pandemic just a day after. On January 23 the city of Wuhan is placed under lockdown and with this, the first cancellations arise. Until January 29, it can be seen the affectation takes place mainly at Eastern Asia in a radial form with the epicenter in Wuhan. Even though, some routes from Europe and North-America are being also altered. Some examples are those flown by British, Lufthansa or American airlines to China, from now on canceled.</p>
+<p>On January 30, the WHO (<em>World Health Organization</em>) declares the COVID-19 a global emergency. China has now reported cases in all its provincial divisions and countries like India and Philippines announce their first positives. Others like France, Italy, Germany or South Korea report new cases. On the same day and the day after of the WHO declaration, it becomes obvious the repercussion the virus will have on the air transport across the globe. The routes affected increase drastically, being now more international rather than domestic. Even tough and as the routes show, the virus is in its majority in Eastern Asia, specifically in China.</p>
+<p>As February begins, some countries respond to the global emergency declaration from WHO. A growing number of states start introducing temperature sensors and scanners in their airports. Others like Bahamas, Indonesia, Mauritius or Israel introduce quarantine measures for those arriving from China or suspected of having the virus. This measure will be followed by countries around the globe in the next days. These measures though, are rapidly not enough and the countries proceed to ban the flights from or to China. Some examples are Mauritius and Singapore (February 2), Israel (February 3), Indonesia and Turkey (February 5). Despite the efforts, the virus spread rapidly and more countries are infected during the month. The measures applied for China will be now applied for these.. Even though, this can not be explained through the schedules adjustments. As represented the modifications grow gradually and all around Eastern Asia, being not visible specific travel bans.</p>
+<p>However, it is interesting to notice the changes in the nature of adjustments. With the closure of the city of Wuhan, the adjustments in both long-haul and short-haul routes were all cancellations. This behavior changes on January 31-February 1, when some short-haul and long-haul are closed for reservation. In the next pages, this will be analyzed with the aim to determine whether it is an anticipation move by airlines. Meanwhile, Asia short-hauls and China domestic routes adjustments are mainly cancellation or reductions in frequency.</p>
+<p>February is also complicated for Europe, Italy will become the third most affected country by the end of the month. In response, some countries introduce travel restrictions for passengers who had been in Italy: Switzerland (February 13), Turkey (February 16), Kuwait (February 20) and Mauritius (February 24) among others. Even though, no major affectations compared to the rest of Europe are visible. It starts to be noticeable on February 28 when El Al (Israel Airlines) cancels all flights to Italy following limitations on travel imposed by the Health and Interior ministries. One day after, on February 29 Italy has more than 1 K confirmed cases and South Korea more than 3 K. This same day the Ministry of Health of Turkey announces the flight suspension to Italy and also to Iraq and South Korea, a measure that can be also seen in the map.</p>
+<p>On March 1, the flag carrier of Italy (<em>Alitalia</em>) announces a frequency reduction to most of its domestic routes, clearly visible in the animation. During the next 6 days, other airlines will adjust their routes to Italy, even though, there are no significant changes. This changes rapidly on March 8. Italy, which until now had only 10 municipalities of the Lodi province under lockdown, decides to extend the quarantine to the entire region of Lombardy and 14 regions more of the north of the country. This provokes new affectations in domestic and international routes, mainly from/to Europe. Even though, some long-haul routes from North and South America involving Rome airport are also affected. This is likely to be an anticipation move by the airlines who may predict what is coming: Europe will become the new epicenter of the pandemic.</p>
+<p>On March 9, there are no significant changes in the overall scenario. However, one of the major airlines around the world, Emirates Airlines files some service changes. It is suffering from low demand caused by the pandemic, deciding to cancel some short-haul routes and idling some A380 of its fleet. One day after, on March 10, Europe tinges red. Italy announces the quarantine of the entire country. Italy is now the second most hit country with more than 10 K cases. Airports, that until this day were not affected, show now canceled routes. It is also very important to notice Spain is also growing fast in cases: With more than 3 K is followed by France with more than 1.5k and Germany with 1.2 K.</p>
+<p>On March 11, there are more than 125 K cases around the world and the WHO declares the COVID-19 a global pandemic. More routes to/from Italy are canceled mainly to/from other European countries and North America. This same day the president of The United States announces travel ban from Schengen Area to the US in bid to stem coronavirus. This measure will go into effect the Friday 13th of March<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>, generating a cloud of canceled routes over the Atlantic sea. From that day the chaos is taking hold of Europe and its countries start proclaiming the state of alarm and the total confinement for their citizens: Portugal on March 13 followed by Spain the day after. Austria on March 16 and France and Belgium on March 17. Of the last are Poland on March 20 and Greece and the UK on March 23. Until that day it is very complicated to detect the specific reactions since the adjustments are widespread around Europe.</p>
+<p>In the north of the African continent, on March 14-March 15 is visible a significant increase of canceled routes in Algeria and Morocco respectively. The affectations in Algeria are explained by the service cancellation to France by the flag airline, Air Algerie. Meanwhile, in Morocco, the adjustments are done by Royal Air Maroc after the Ministry of Foreign Affairs announced that all international passenger flights to and from the country would be suspended.</p>
+<p>Back to March 13, in the Arabian peninsula, it can be seen an increase in affected routes, concretely in Kuwait. The reason behind is the total closure of Kuwait International Airport. The government takes this measure with the objective to isolate the country from the rest of the world. Kuwait becomes the first country to close completely its main airport as a preventive measure with 72 positive cases. Two days after, on March 15, Saudi Arabia announces the travel ban from/to the country. The airlines' response to this measure is clearly visible, routes cancellations in Jeddah rise immediately.</p>
+<p>In Russia, from March 13 and for an undetermined period of time, is limited the air traffic with Germany, Spain, France, and Italy. This measure is represented with an increase of canceled routes mainly in the Capital Moscow, and in St. Petersburg. Still in Easter Europe, the increase of adjustments is even more substantial on March 16. Russia introduces new limitations and Aeroflot, the flag carrier of the country, introduces new flight reductions in its schedule. In addition, this same day in Uzbekistan the air borders closure come into effect.</p>
+<p>Jumping to southeastern Asia, on March 15, the city of Manila (Philippines) is placed under lockdown, generating a rise in cancellations. This measure is also imposed on the city of Cebu the next day, forcing the flag carrier of the county, Cebu Pacific, to cancel its routes to/from Cebu the March 17. This generates a new raise in cancellations the same day the country is declared under a state of calamity for a tentative period of six months.</p>
+<p>On March 17, China is still the country more hit, with 81 K positive cases. Italy presents 30 K and is followed by Spain with 16 K, which has just surpassed Iran. Meanwhile, on the other side of the Atlantic sea, until now with minor affectations, the first measures start to arrive. In Peru, with 117 positive cases, come into effect the state of emergency announced the day before suspending all the international air transport of passengers. On March 18 Chile enacts the state of alarm and the day after, in the Dominican Republic, President Medina announces the suspension of inbound air traffic. However, this measure cannot be seen in the data collected. Otherwise, on March 23, Colombia forbids international flights and Panama closes its air borders, center America tinges red. By that day, in South America, Brazil is the most hit country with more than 1.5 K cases, followed by Ecuador with 850 and Chile 663. The most severe measures in Brazil will arrive on March 30 closing its borders, however, it is not visible any significant affectation.</p>
+<p>Crossing again the Atlantic sea and back to March 19, Egypt closes their airports for international flights, being noticeable, especially in Cairo, the increase in adjustments. In Southeastern Asia, Air Asia Thailand announced the suspension of all its international flights, as well as, the reduction in frequencies for its domestic routes. Both measures come into effect on March 22, being visible in the airport of the country and mainly in the capital Bangkok.</p>
+<p>On March 25 Australia ranks as the 17th most hit country, with 2.7 K cases. This day the country forbids its citizens to leave the country with only a few exceptions. This measure provokes a rise in schedule adjustments of those routes involving Australian airports. Three days after, on March 28th, the Malaysian low-costs AirAsia and AirAsia suspend their operations tingeing the skies of the country in red.</p>
+Finally, in the last stage of the animation, from March 28 to April 7, some routes that were canceled or reduced start reopening or showing increments in their frequencies, being especially noticeable on March 29.
+</div>
+</div>
+<p><img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+<p>In order to visualize the previous commented increases in late March, is attached the following graphic.</p>
+<p><img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+<div class="column-left2">
+<div class="flourish-embed" data-src="Visualizations/NetFrequencies/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/NetFrequencies/style.css"  />
+<script src="Visualizations/NetFrequencies/flourish.embed.js"></script>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:NET"></span>
+<img src="images/blank.png" alt="Net Frequencies Curve" width="80" height="0.0001%" />
+<p class="caption">
+Figure 4.3: Net Frequencies Curve
+</p>
+</div>
+</div>
+</div>
+<div class="column-right2">
+<div class="textarea3">
+<p>As it was predicted, in late March and early April it is visible a rise in frequencies increased, being especially noticeable on March 29. Even though the same day it can be seen there is a cancellation of 8 K frequencies. This can be somehow confusing, it is for this reason in the next lines is explained the reason found.</p>
+<p>The commercial scheduling consists of planning the destination, timings and frequencies to be flown by the airlines, being one of the key elements when defining their strategy. Commercial scheduling typically undergoes two major iterations per year: the summer and winter schedules. This year, in the northern hemisphere, the summer schedules go from March 29 to October 24. It is because of that, March 29 is an important date.</p>
+<p>In consequence, and considering this analysis is done in the last months of the winter schedule 2020, there have been collected several airlines' summer schedules publications. These have been added to the database and classified as <em>increases of frequencies</em>, since there was neither the evidence that the airlines were flying those routes nor the frequencies detailed. This may explain the increase of frequencies visible in both, the map and in the Net Frequencies graphic. However, it is important to highlight the summer schedules published showed a huge reduction of flights compared to previous years. KLM for example introduced a schedule with 57 destinations, flying only the 10% of the normal number of flights <span class="citation">(André Orban <a href="references.html#ref-29MKLM">2020</a>)</span>. But how is justified the rise in cancellations?</p>
+<p>During the month of March, several airlines published their summer schedules, most of them, with significantly fewer routes and frequencies. Despite its predictions of low demand, they could not forestall the pandemic evolution or the measures the governments will be taking. It is because of that, some of them have been almost adjusting their schedules on a daily basis.</p>
+<p>During the month of March, the world's airlines could see how the outbreak in China began to ease and the government started to lift some restrictions <span class="citation">(Sarah Giam <a href="references.html#ref-ChinaMarch">2020</a>)</span>. Air carries reaction was the increase of their frequencies, especially those programmed for the summer schedule. This rapidly changed on March 26, after the Civil Aviation Administration of China (CAAC) decided to limit the number of international flights coming in and out of China. This was a measure taken to resolutely contain the increasing risks of imported COVID-19 cases. Under this new regulation, starting on March 29, Chinese airlines were only allowed to maintain one route per country and were forced to limit the number of flights to one per week. Foreign airlines were also forced to reduce their international routes to China to one per week and operate only one route into the country <span class="citation">(Jackie Chen <a href="references.html#ref-China29">2020</a>)</span>. The airlines that were some days before adding frequencies are now forced to reduce them again.</p>
+<p>This could explain the rise in canceled frequencies, but in addition, it has to be considered the schedule adjustments applied by airlines for other independent reasons (strategy, new demand predictions, ... ). And at least but not last, it must take into other governments' measures. An example is Oman, which suspends the international and domestic flights on March 29.</p>
+<p>All these factors could explain the increase of frequencies in late March/ early Apri. However, there may be factors or considerations not taken into account due to the complexity of the analysis. One of them has been identified and it is explained in detail in the next section.</p>
+</div>
+</div>
+<p><img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="the-air-cargo-phenomena" class="section level3">
+<h3><span class="header-section-number">4.3.2</span> The air cargo phenomena</h3>
+<p>In the previous analysis, it has been seen that during the month of March and particularly when the global pandemic was declared almost every airline of the world had reduced its flights. With the travel restriction, border closures and quarantine periods, the demand for long-haul or international flights rapidly decreased, being quickly removed from airline schedules. The air cargo problem starts here.</p>
+<p>Nearly every intercontinental passenger flight, in the belly hold, transports cargo. In fact, 45% of the world air cargo is carried in this method. With the flight cancellations, the overall air cargo capacity reduction was about 23% in middle march and around the 40% in late March.</p>
+<div class="figure" style="text-align: center"><span id="fig:AirCapacity"></span>
+<img src="images/Cargo/AirCapacity.png" alt="Air Cargo volume and capacity during the months of March, April and May. Source: CLIVE Data Services" width="60%" />
+<p class="caption">
+Figure 4.4: Air Cargo volume and capacity during the months of March, April and May. Source: CLIVE Data Services
+</p>
+</div>
+<p>This is how the supply behaved, but what is the case of the demand? As commented during all this project, the economic impact induced for the COVID-19 has been devastating. In March, with almost all the world placed under lockdown, the economic forecast plunged. With the population under lockdown and the bad economic forecasts, consumers start buying less which generates a knock-on effect where the shipping is always affected. In addition, in many places the factories are shut down, cutting the supply chains. The scenario for air cargo was terrible. However, it resulted to be another perspective.</p>
+<p>Since almost the beginning of COVID-19, it became clear the virus was highly infectious. With this, the necessity of Personal Protective Equipment (PPE) to treat safely the infected patients became essential. This is a material the hospitals have in stock, but not in the quantity needed to protect nearly every staff member for a long period.</p>
+<p>By early March, the pandemic in China started to be controlled and with this, the industries started to inch back to life. It is not surprising that China resulted to be the main manufacturer of facial masks of the world. The most demanded equipment at that moment. Meanwhile, in Europe and the United States the COVID-19 was ramping up, forcing many hospitals to reuse masks. Even with this technique, they will rapidly need supply.</p>
+<p>In logistics, there is nothing faster than air cargo. Thanks to this urgent demand for PPE and other medical supplies, air cargo demand dropped only a 15% in March 2020. On the other side, and remembering, air capacity dropped around 23%, generating and 8% gap, between supply and demand. Of course, the economy followed their laws and the last two weeks of March the air cargo rates from Shanghai to Europe jumped 50% above normal. In response, the big air cargo airlines that could rapidly increased their flights. However, the response of cargo airlines is limited to the number of pilots, mechanics and planes they have, being impossible to massively increase their operations in a short time. Here is where passenger airlines appear on the scene.</p>
+<p>The passenger airlines had the extra capacity demanded. An average passenger airlines earn the 15-20% of its revenue through cargo. Considering that on average most of the world airlines' flights are domestic or short-haul flights, where little or zero cargo is transported, the revenue coming from cargo in long-haul flights is much higher. Moreover, the space before occupied by the baggage is now empty, airlines soon realized the gap in the market and the possibility of making profit through filling their passenger airplanes with cargo.</p>
+<p>In addition, other circumstances stimulated this transformation. One the top of them is the Russia-Saudi Arabia oil price war. The two countries have long worked together limiting the oil output based on demand. But, after Russia refused to reduce their output, Saudi Arabia triggered the war by increasing production and slashing the prices <span class="citation">(Wendover Productions <a href="references.html#ref-CargoProblem">2020</a><a href="references.html#ref-CargoProblem">a</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span id="fig:Oil"></span>
+<img src="images/Cargo/Oil.png" alt="Oil price evolution during the first quarter of 2020. Source: Refinitiv" width="60%" />
+<p class="caption">
+Figure 4.5: Oil price evolution during the first quarter of 2020. Source: Refinitiv
+</p>
+</div>
+<p>Considering fuel is the main airlines' cost, the massive drop in its price drastically reduces the operation cost of a flight. This means that airlines need to earn a lot less than cargo airlines do normally to make a profit. With no passengers airlines did not take to long to innovate, and rapidly filled their passenger cabins with cargo, fastening the goods in the seats or even removing the seats. In fact, Airbus has offered a service to the airlines to transform the passenger cabins into an additional hold. This service is available for the A330 and A350 families and includes the administrative management with the European Aviation Safety Agency and the return to the passenger configuration <span class="citation">(El confidencial <a href="references.html#ref-AirbusCargo">2020</a>)</span>.</p>
+<div class="column-left">
+<div class="figure" style="text-align: center"><span id="fig:AustrianC"></span>
+<img src="images/Cargo/AustrianC.png" alt="Austrian Airlines 777-200 being loaded with cargo in the passenger cabin. Source: Austrian Airlines" width="70%" />
+<p class="caption">
+Figure 4.6: Austrian Airlines 777-200 being loaded with cargo in the passenger cabin. Source: Austrian Airlines
+</p>
+</div>
+</div>
+<div class="column-right">
+<div class="figure" style="text-align: center"><span id="fig:SwissC"></span>
+<img src="images/Cargo/SwissC.png" alt="Swiss International Airlines cabin filled with boxes. Source: Swiss WorldCargo" width="70.25%" />
+<p class="caption">
+Figure 4.7: Swiss International Airlines cabin filled with boxes. Source: Swiss WorldCargo
+</p>
+</div>
+</div>
+<p>All these conditions together made possible airlines could generate profits flying passenger planes without passengers. This opportunity was taken by several airlines around the world. For instance, Delta Airlines, Wizz, Air Canda but also small airlines got in on the game, for example, Air Greenland. The increment in frequencies seen in this study in late March and early April could be partially explained by this phenomenon. In order to verfy or deny the previous hypotesisi there have been listed all the airlines of the database that applied increases in late March/early April.</p>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:400px; overflow-x: scroll; width:100%; ">
+<table class="table" style="font-size: 8px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+<span id="tab:Cargo">Table 4.2: </span>Classification of the airlines that applied increases in frequencies from March 15 to April 7.
+</caption>
+<thead>
+<tr>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+AIRLINE
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+INCREASED FREQUENCIES FROM MARCH 15 - APRIL 7
+</th>
+<th style="text-align:center;position: sticky; top:0; background-color: #FFFFFF;">
+EVIDENCES OF FLYING CARGO FLIGHTS ON PASSENGER AIRCRAFTS
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+Alitalia
+</td>
+<td style="text-align:center;">
+776
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air Canada
+</td>
+<td style="text-align:center;">
+434
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+SAS
+</td>
+<td style="text-align:center;">
+380
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Lufthansa
+</td>
+<td style="text-align:center;">
+336
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Luxair
+</td>
+<td style="text-align:center;">
+322
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+British Airways
+</td>
+<td style="text-align:center;">
+296
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+KLM
+</td>
+<td style="text-align:center;">
+286
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Finnair
+</td>
+<td style="text-align:center;">
+223
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Aeroflot
+</td>
+<td style="text-align:center;">
+220
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+EVA Air
+</td>
+<td style="text-align:center;">
+210
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Icelandair
+</td>
+<td style="text-align:center;">
+207
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+United Airlines
+</td>
+<td style="text-align:center;">
+204
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Delta Airlines
+</td>
+<td style="text-align:center;">
+196
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Malaysia Airlines
+</td>
+<td style="text-align:center;">
+195
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Norwegian
+</td>
+<td style="text-align:center;">
+191
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+S7 Airlines
+</td>
+<td style="text-align:center;">
+191
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air China
+</td>
+<td style="text-align:center;">
+186
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air France
+</td>
+<td style="text-align:center;">
+185
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Hawaiian Airlines
+</td>
+<td style="text-align:center;">
+184
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Azul
+</td>
+<td style="text-align:center;">
+179
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+China Airlines
+</td>
+<td style="text-align:center;">
+173
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Korean Air
+</td>
+<td style="text-align:center;">
+170
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+GOL
+</td>
+<td style="text-align:center;">
+169
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Philippine Airlines
+</td>
+<td style="text-align:center;">
+167
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Turkish Airlines
+</td>
+<td style="text-align:center;">
+138
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Vueling
+</td>
+<td style="text-align:center;">
+110
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+ANA
+</td>
+<td style="text-align:center;">
+107
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Loganair
+</td>
+<td style="text-align:center;">
+104
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Iberia
+</td>
+<td style="text-align:center;">
+99
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+JAL
+</td>
+<td style="text-align:center;">
+96
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air Senegal
+</td>
+<td style="text-align:center;">
+93
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Asiana Airlines
+</td>
+<td style="text-align:center;">
+92
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Eurowings
+</td>
+<td style="text-align:center;">
+77
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+TAP Air Portugal
+</td>
+<td style="text-align:center;">
+75
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Wizz Air
+</td>
+<td style="text-align:center;">
+69
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air New Zealand
+</td>
+<td style="text-align:center;">
+68
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Aerolineas Argentinas
+</td>
+<td style="text-align:center;">
+63
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Singapore Airlines
+</td>
+<td style="text-align:center;">
+59
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Swiss International Air
+</td>
+<td style="text-align:center;">
+58
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Ethiopian Airlines
+</td>
+<td style="text-align:center;">
+43
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Cathay Pacific
+</td>
+<td style="text-align:center;">
+42
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Etihad
+</td>
+<td style="text-align:center;">
+36
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Garuda
+</td>
+<td style="text-align:center;">
+35
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Gulf Air
+</td>
+<td style="text-align:center;">
+35
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Qatar
+</td>
+<td style="text-align:center;">
+32
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+American Airlines
+</td>
+<td style="text-align:center;">
+28
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Vietnam Airlines
+</td>
+<td style="text-align:center;">
+28
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Thai Airways
+</td>
+<td style="text-align:center;">
+26
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air Antilles
+</td>
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+China Southern
+</td>
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+LATAM
+</td>
+<td style="text-align:center;">
+21
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Cathay Dragon
+</td>
+<td style="text-align:center;">
+20
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Royal Brunei
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Scoot
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Virgin Atlantic
+</td>
+<td style="text-align:center;">
+17
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Emirates
+</td>
+<td style="text-align:center;">
+16
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+China Eastern
+</td>
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Al Israel Airlines
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Egyptair
+</td>
+<td style="text-align:center;">
+10
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Thai Lion Air
+</td>
+<td style="text-align:center;">
+10
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Condor
+</td>
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Croatia Airlines
+</td>
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Cayman Airways
+</td>
+<td style="text-align:center;">
+8
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Eastern Airways
+</td>
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Xiamen Airlines
+</td>
+<td style="text-align:center;">
+7
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Druk Air
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Juneyao Airlines
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Spring Airlines
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+YES
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Atlantic Airways
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Bamboo Airways
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Hainan Airlines
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Philippine Air Asia
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Sichuan Airlines
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air Austral
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Azerbaijan Airlines
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Fiji Airways
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shanghai Airlines
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Air Calin
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Beijing Capital Airlines
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+Shandong Airlines
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+NO
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As visible, there have been included the number of frequencies increased per airline. Also, each airline has been classified with a YES or NO considering whether, from March 15 to April 7, there is evidence that they did cargo flights with passenger airplanes or not. Some of the airlines listed with a &quot;NO&quot; introduced cargo flights with passenger airplanes at a later stage.</p>
+<p>From the airlines listed, 32 out of 80 were flying cargo flights in their passenger airport in these dates. This represents that 4677 out of 7967, or the 59% could be increased for cargo reasons. Although, it cannot be ensured that the frequencies were added to transport cargo, this possibility, together with the argumentation given in the previous section, may explain the increase seen in the Figure <a href="routes-impact-analysis.html#fig:NET">4.3</a>.</p>
+</div>
+<div id="evolution-of-the-frequencies-cancelled-per-airline" class="section level3">
+<h3><span class="header-section-number">4.3.3</span> Evolution of the frequencies cancelled per airline</h3>
+<p>In the following section is studied how the evolution of the erased frequencies per airline is related to the spreading of the pandemic. In order to do so, below are attached the following two illustrations:</p>
+<div class="column-left">
+<div class="flourish-embed" data-src="Visualizations/AirlineRace/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/AirlineRace/style.css"  />
+<script src="Visualizations/AirlineRace/flourish.embed.js"></script>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Airlines"></span>
+<img src="images/blank.png" alt="Evolution of the cancelled frequencies per airline." width="80" height="0.0001%" />
+<p class="caption">
+Figure 4.8: Evolution of the cancelled frequencies per airline.
+</p>
+</div>
+</div>
+<div class="column-right">
+<div class="flourish-embed" data-src="Visualizations/CountryRace/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/CountryRace/style.css"  />
+<script src="Visualizations/CountryRace/flourish.embed.js"></script>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:Countries"></span>
+<img src="images/blank.png" alt="Evolution of the confirmed cases per country." width="80" height="0.0001%" />
+<p class="caption">
+Figure 4.9: Evolution of the confirmed cases per country.
+</p>
+</div>
+</div>
+<p><img src="images/Legend.png" width="60%" style="display: block; margin: auto;" /></p>
+<div class="textarea">
+<p>On the left side animation, it is represented the evolution of the frequencies canceled per airline and per day. Meanwhile, in the right graphic is shown the evolution of cases per country<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> and per day. In both animations, the bars have been colored considering the <em>United Nations Statistics Division</em> (UNSD) regions. By this way, the classification of the airlines has been done taking into account the country where they are based in. For instance, Cathay Dragon has been categorized as &quot;Eastern Asia&quot;, since it is a Hong Kong-based airline.</p>
+<p>As represented, on January 22, in China, there were already more than 500 positive cases. In addition, Thailand, Japan, South Korea, Taiwan and the United States reported their first cases. During the next 30 days, it is visible how the virus spreads rapidly inside China. In this stage, the airlines canceling more frequencies are all based in Asia. There few exceptions like Lufthansa, AirFrance and America's 'Big Three'<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>. All these have long-haul routes to China, which are forced to cancel as the coronavirus spreads and fears mount <span class="citation">(Slotnick, D. <a href="references.html#ref-NewsUnited">2020</a>)</span>. From February 19, is illustrated the virus spreading acceleration outside China. In just 5 five days South Korea has 920 more confirmed cases, Italy 258, Japan 67 and Iran 71. Until March 9, the rise of cases in South Korea is followed by an increase of canceled frequencies by Korean Air, which even ranks as the 4th airline with more frequencies canceled.</p>
+<p>In late February and early March, the virus is also spreading fiercely in Italy and Iran, surpassing South Korea in cases on March 10. With this, first color changes start arriving in the airlines graphic. On March 7, 3 European airlines appear in the top 20: Lufthansa, Eurowings and Alitalia. On 8 March, when the North of Italy is placed under quarantine Alitalia has already 736 routes canceled. Two days after, the Italian government places all the country under lockdown, and the European airline's cancellations rise again. The British low-cost airline, EasyJet, cancels more than 1 K routes from/to Italy to/from Europe. On March 11, it is declared the global pandemic and Ryanair cancels more than 2 K frequencies. Trump announces the travel ban from Europe from March 13. On March 13, Americas' 'Big Three' cancel mora than 800 frequencies from Europe. In the next days, Europe becomes the epicenter of the pandemic and on March 16, 6 out of the 10 most-affected countries are European. An example is Spain, where confirmed cases more than triple in just 6 days. One of the major changes in the airlines' illustration arrives on March 14, when Lufthansa Group (Lufthansa, Eurowings, SWISS and Brussels Airlines) cancels more than 5 K frequencies. By March 20, the group will be grounding 700 out of 763 aircraft, flying only the 5% of its program <span class="citation">(Eurocontrol <a href="references.html#ref-LufthansaGroup20M">2020</a>)</span>.</p>
+<p>Meanwhile, in the evolution of the confirmed cases, on March 20 China is still in the first place. Nevertheless, it seems the country has managed to flatten the curve. In the second place is located Italy, where each day is added 2 K cases. Followed by Spain, also confirming around 2 K new cases per day.</p>
+<p>In the next 7 days, a lot of airlines fill new cancellations. It is important to highlight the emerge of South American airlines in the lower part of the ranking. South America will be the last region to be hit by the virus and is in mid/late March when the cancellations start taking place. This is also visible in the right graphic, from March 21 to March 31, the cases in Brazil raises from 1 K to 6 K</p>
+<p>However, the virus is now spreading more aggressively in Northern America, the United States, which had 3 K positives on March 15, has more than 100 K confirmed cases and ranks as the most hit country on March 27. Even though, the European and Asian airlines are still the ones that have canceled more frequencies.</p>
+<p>During the last stage of this study, from March 27 until April 7, the number of cases keeps increasing. In Germany for example, on April 4, the reported cases surpassed those reported by China. In the United States the cases more than triple in just 10 days.</p>
+<p>The animations conclude on April 7 showing that 6 out of the 10 most hit countries are European. Summing up more than 450 K confirmed cases together. Meanwhile, the United States is now the most hit country surpassing the 360 K cases and China is in the 5th position with 82 K positives. In the left graphic, there are no major changes apart from another increase by the Lufthansa Group.</p>
+<p>Regarding the air carriers, the European airlines are the ones that have reduced more frequencies. Lufthansa is in the first position and all the members of its group are in the top 10. The low-cost airline Ryanair is also in this ranking, with more than 2 K frequencies canceled. It is important to notice that there is none Northen American airline in the top 10. American Airlines and United Airlines rank as the 19th and the 20th respectively, explained because the evaluated period of time concludes in early April when United Stated airlines were not still affected by domestic flights reduction.</p>
+<p>Finally, there are 5 Asian airlines in the top 10. Two of them from the Persian Gulf (Western Asia): Emirates Airlines and Qatar Airway, two from the Southeastern Asia: Air Asia and Cebu Pacific and one from the Eastern Asia: Air China.</p>
+<p>In conclusion, it has been found a direct relationship between the number of cases per region and the airlines canceling more frequencies. It has been visible that in late January and early March, when the most affected region was Asia, the airlines reducing more frequencies were based in this region. Moreover, when South Korea raised in positives the flag carrier of the country also increased its cancellations. This same behavior has been followed by Italy and its main airline Alitalia. Nevertheless, after the outbreak in Italy and with the virus spreading Europe no more direct relationships between countries and flag-carriers have been detected. The virus is no more focused on one country, being a reality around Europe and with all countries applying measures most of the European carriers are being affected. Moreover, the European market is shared among several European airlines, difficulting, even more, the visualization of the countries' affectation through their flag-carriers. This is likely to be the reason for not seeing any specific behavior, although, the relationship airline-region is still present.</p>
+<p>It has been also noticeable the North-American airlines' reaction to the travel ban from Europe. It is important to highlight, at the moment the decision was taken were around 1 K confirmed cases in the States. So this is clearly a reaction to a government measure rather than the number of cases.</p>
+In any case, even in Asia and Europe, where it has been seen a direct relationship between the cases per country and the number of canceled frequencies by the flag-carrier; it cannot be ensured that the airlines where reacting to the value of the confirmed cases. There are more likely to be reactions in front of government measures and drops in demand, rather than the number of COVID-19 positives. This can be corroborated with the analysis done in the previous section where are explained some government measures and is seen the airlines' reaction. However, there is a direct relationship between the number of cases and the demand, which at the same time is related to the reductions of frequencies. It is because of that, it cannot be obtained a general conclusion. It would be necessary to analyze every airline adjustment considering the moment the decision was taken, their forecasts in demand and the government measures applied at that moment.
+</div>
+</div>
+<div id="affected-airlines" class="section level3">
+<h3><span class="header-section-number">4.3.4</span> Affected Airlines</h3>
+<p>In the next section are presented the airlines appearing in the study. This means the air carriers followingly presented have applied some adjustments in their schedules that have been collected in the database. This does not mean other airlines have not introduced adjustments in their schedules but these have not been listed in <em>AirlineRoutes</em>. Besides, it's likely the database created does not gather all the adjustments of the airlines listed.</p>
+<p><img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+<div class="column-left2">
+<div class="textarea3">
+<div class="flourish-embed" data-src="Visualizations/AirlineList/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/AirlineList/style.css"  />
+<script src="Visualizations/AirlineList/flourish.embed.js"></script>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:ListAirlines"></span>
+<img src="images/blank.png" alt="List of Airlines Affected" width="80" height="0.0001%" />
+<p class="caption">
+Figure 4.10: List of Airlines Affected
+</p>
+</div>
+</div>
+</div>
+<div class="column-right2">
+<div class="textarea3">
+<p>For each airline is detailed the next information:</p>
+<ul>
+<li><p><strong><em>Logo</em></strong>: Logotype of the airline.</p></li>
+<li><p><strong><em>Country</em></strong>: Country where the airline is based in.</p></li>
+<li><p><strong><em>Region</em></strong>: It classifies the previously mentioned country into a United Nations StatisticsDivision (UNSD) region</p></li>
+<li><p><strong><em>N<sup>o</sup> of the potential Frequencies</em></strong>: It represents the sum of the frequencies scheduled from January 23 to April 7 by the airline. It does not necesseraly represents the total of the frequencies flown by the airline. It is the sum of the frequencies planned for all the routes adjusted.</p></li>
+<li><p><strong><em>Frequencies Cancelled VS Frequencies Increased</em></strong>: It represents the sum of the frequencies cancelled against the sum of the frequencies increased from January 23 to April 7 by the airline.</p></li>
+<li><p><strong><em>Affectation</em></strong>: It is the porcentage of the routes cancelled for every houndred planned.</p></li>
+</ul>
+<p>Before commenting the results, in the top left of the Figure there is a browser that allows to search the desired airline.</p>
+<p>The main objective of this section is to identify those airlines present in the database but whose adjustments have not been completely collected. This can be ensured by analysing the <em>Frequencies Cancelled VS Increased</em> color bar. It is unlikely that during the period of the study, some airlines have increased more frequencies that cancelled. This is a clear indication of lack of information. Having increased more frequencies than cancelled involves having a low affectation grade. It is because of that, scrolling down the list in the bottom can be found the airlines in question. For example are: Luxair, Norwegian, Azul, GOL, Alaska, Vueling, Loganair, ...</p>
+<p>Taking Norwegian, for instance, through the database represents that the airline has added 191 frequencies and that it has not cancelled any frequency. However, as states in its webpage the airline, by March 16, cancelled 85% of its flights. Another clear example, is Vueling. In the database generated the airline lists with an affectation of 0%, increasing 110 frequencies and cancelling none. Nevertheless, by early March the airline already cancelled 22 routes from Barcelona <span class="citation">(Hipertextual <a href="references.html#ref-Vueling">2020</a>)</span>.</p>
+<p>It is also interesting to comment the case of Neos Airline. As it can be seen, the airline shows 4 frequencies adjusted in this period but neither has been cancelled nor increased. The adjustments gathered of Neos have been all &quot;Close for reservation&quot;. However, in its webpage is listed all the destinations with flights suspended. This proofs the difficulty of collecting all the adjustments. Additionally, some airlines are resistent to publish the routes affected and the exact number of frequencies adjusted, which makes it even more complicated.</p>
+<p>On the other side, some airlines listing only few N<sup>o</sup> of frequencies planned. These carriers either may be small or only few adjustments have been collected. Considering the particularly low value in some cases, it is more likely to be a lack of adjustments.</p>
+</div>
+</div>
+<p><img src="images/blank.png" width="80" height="0.0001%" style="display: block; margin: auto;" /></p>
+<p>To continue, there are presented the following two Figures:</p>
+<div class="column-left">
+<div class="flourish-embed" data-src="Visualizations/AffectedAirlinesRegion/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/AffectedAirlinesRegion/style.css"  />
+<script src="Visualizations/AffectedAirlinesRegion/flourish.embed.js"></script>
+</div>
+</div>
+<div class="column-right">
+<div class="flourish-embed" data-src="Visualizations/CancellationsRegion/index.html">
+<link rel="stylesheet" type="text/css" href="Visualizations/CancellationsRegion/style.css"  />
+<script src="Visualizations/CancellationsRegion/flourish.embed.js"></script>
+</div>
+</div>
+<img src="images/Legend.png" width="60%" style="display: block; margin: auto;" />
+<div class="textarea">
+<p>As shown in the left circle, 114 of the airlines listed are from Asia representing 48.8% of the total. The 25.2% are from Europe summing up 62 airlines. Northern America airlines represents the 5.3%, Southern America and the Caribbean the 6.1%, Africa the 7.8% and Oceania the 6.8%. This is the result expected since the period selected gathers the evolution of the pandemic mainly in Asia and Europe. There have indeed been seen some measures applied in the Americas and the airlines' response, however, it was in mid/late April when the Americas were most hit by COVID-19 and the most strict air travel measures were supposed to be applied. The number of airlines introducing adjustments does not necessarily mean, more frequencies canceled. It is because of that, it is necessary to check the right graphic:</p>
+<p>As visible, Western Europe has been the region in which it has been canceled the major number of frequencies. Representing the 26% of the total. The reason behind is the fact that in the database is listed the massive cut of Lufthansa Group, who have been flying only the 5% of its usual program. This does not mean that other airlines did not also apply a massive cut but it may not be listed. This can generate, the noticeable difference between Western Europe and the other regions.</p>
+<p>Western Europe is followed by Eastern, Southeastern and Western Asia that together sum up to 46% of the cancellations. This is also an expected result, considering the period studied gathers the entire evolution of most of the countries in Asia. Northern America represents almost the 7% of the cancellation since it has been studied the travel ban from Europe. Even though, and as it has been commented, it expected this value would strongly increase if the period was extended until late April. The other regions of Europe (Northern, Eastern and Southern Europe) represent the 12% of the total cancellations, almost a quarter part of Western Europe. This also indicates the database is incomplete since it is known that airlines of these regions have also applied important cuts in their Schedules. Are some examples: The Irish low-cost, Ryanair, grounded its entire fleet from March 24 to April 9. The Spanish long-haul low-cost airline, LEVEL grounded also its entire fleet on March 20. Or the English easyJet, which also grounded its fleet on March 25<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>.</p>
+</div>
+</div>
+<div id="duration-and-anticipation-of-the-adjustements" class="section level3">
+<h3><span class="header-section-number">4.3.5</span> Duration and anticipation of the adjustements</h3>
+<p>In this section will be studied the duration and the anticipation of the adjustments applied by the airlines.</p>
+<p>Firstly, is analysed how the duration of the adjustments has evolved through the period. In order to compute so it has been calc <img src="images/Legend.png" width="60%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="airlines-strategy" class="section level3">
+<h3><span class="header-section-number">4.3.6</span> Airlines' Strategy</h3>
+<p>vnflevnfklw</p>
+<div class="column-left">
+<div class="flourish-embed flourish-chart" data-src="visualisation/2647281" data-url="https://flo.uri.sh/visualisation/2647281/embed">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+<div class="column-right">
+<div class="flourish-embed flourish-chart" data-src="visualisation/2645464" data-url="https://flo.uri.sh/visualisation/2645464/embed">
+<script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="3">
+<li id="fn3"><p>The United Kingdom and Ireland were initially exempt but will be also included on March 17.<a href="routes-impact-analysis.html#fnref3">↩</a></p></li>
+<li id="fn4"><p>The data required to design the graphic has been obtained from <span class="citation">Roser, M. &amp; Ritchie, H. (<a href="references.html#ref-DataCountries">2020</a>)</span> .<a href="routes-impact-analysis.html#fnref4">↩</a></p></li>
+<li id="fn5"><p>American Airlines, Delta Airlines and United Airlines.<a href="routes-impact-analysis.html#fnref5">↩</a></p></li>
+<li id="fn6"><p>This information has been obtained from <span class="citation">(Jason Rabinowitz <a href="references.html#ref-Cuts">2020</a>)</span>, the percentages cited are for time-periods enclosed in the period of this study.<a href="routes-impact-analysis.html#fnref6">↩</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pandemic-arrival-and-evolution.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-scenarios-for-the-future-of-the-air-transport.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="book_assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/lunr.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="book_assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["TFM.pdf", "TFM.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

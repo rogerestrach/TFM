@@ -1,0 +1,61 @@
+# Lists {-}
+## List of Contents {-} 
+
+- \@ref(intro).  Introduction 
+    - \@ref(aim)  Aim
+    - \@ref(scope) Scope
+    - \@ref(objectives)  Objectives
+    - \@ref(spec)  Specific Requirements
+    -  \@ref(just)  Justification
+- \@ref(ATEvo). Air Transport Evolution and Forecast before COVID-19
+- \@ref(Arr). Pandemic Arrival and Evolution
+- \@ref(Imp) Routes Impact Analysis
+    - \@ref(ImpMeth) Methodology
+    - \@ref(ImpDat) Database
+    - \@ref(ImpAn) Analysis
+        - \@ref(ImpAn1) The pandemic outbrake throughout the schedule adjustments
+        - \@ref(ImpAn2) The air cargo phenomena
+        - \@ref(ImpAn3) Evolution of the frequencies cancelled per airline
+        - \@ref(ImpAn4) Affected Airlines
+        - \@ref(ImpAn5) Duration and anticipation of the adjustments
+        - \@ref(ImpAn6) Airlines' Strategy
+- \@ref(Fore). The Scenarios for the Future of the Air Transport
+- \@ref(Conc). Conclusions
+
+## List of Figures {-} 
+
+- Figure \@ref(fig:TForecast): Traffic Forecast for 2038. Source: [@Airbus_GMF].
+- Figure \@ref(fig:TF2038): Traffic Forecast for 2038. Source: [@EcDevICAO].
+- Figure \@ref(fig:WEG): World Economic growth *vs* air traffic growth. Source: [@EcDevICAO].
+- Figure \@ref(fig:routesevo): Total route creation. Source: [@Airbus_GMF].
+- Figure \@ref(fig:ChinaLockdown): Some of the most affected foreign carriers by the China lockdown.
+- Figure \@ref(fig:EuropeAirl): Airlines forming the IAG, AirFrance KLM and Lufthansa Group.
+- Figure \@ref(fig:USAAirl): The big three airlines in the United States.
+- Figure \@ref(fig:NewCases): New confirmed cases of COVID-19 per region.
+- Figure \@ref(fig:Regions): The United Nations geoscheme.
+- Figure \@ref(fig:MAP): Evolution of the affected routes by COVID-19.
+- Figure \@ref(fig:NET): Net Frequencies Curve.
+- Figure \@ref(fig:AirCapacity): Air Cargo volume and capacity during the months of March, April and May. Source: CLIVE Data Services.
+- Figure \@ref(fig:Oil): Oil price evolution during the first quarter of 2020. Source: Refinitiv.
+- Figure \@ref(fig:AustrianC): Austrian Airlines 777-200 being loaded with cargo in the passenger cabin. Source: Austrian Airlines.
+- Figure \@ref(fig:SwissC): Swiss International Airlines cabin filled with boxes. Source: Swiss WorldCargo.
+- Figure \@ref(fig:Airlines): Evolution of the cancelled frequencies per airline.
+- Figure \@ref(fig:Countries): Evolution of the confirmed cases per country.
+- Figure \@ref(fig:ListAirlines): List of Airlines Affected.
+- Figure \@ref(fig:NAirAff): Number of Airlines Affected per Region.
+- Figure \@ref(fig:CanReg): Number of Cancellations per Region.
+- Figure \@ref(fig:Duration): Evolution of the average duration of the adjustments.
+- Figure \@ref(fig:Anticipation): Evolution of the average anticipation of the adjustments.
+- Figure \@ref(fig:LossRegions): Passenger Revenue Loss per region. Source: ICAO
+- Figure \@ref(fig:Shapes): Scenarios for passenger seat capacity. Source: ICAO
+- Figure \@ref(fig:CasesFreq): Number of cases per region *vs* number of canceled frequencies.
+- Figure \@ref(fig:BefAft): Tracking the massive impact of the Covid-19 pandemic on the world’s airline industry in early 2020. Source: South China Morning Post.
+- Figure \@ref(fig:GlobalBan): Evolution of the countries that have imposed a global travel ban in response to the COVID-19 pandemic.
+- Figure \@ref(fig:Spreading): Spreading of the coronavirus.
+
+## List of Tables {-}
+
+- Table \@ref(tab:Example): Database structure.
+- Table \@ref(tab:InterestValues): Database's characteristic values.
+- Table \@ref(tab:Cargo): Classification of the airlines that applied increases in frequencies from March 15 to April 7.
+
